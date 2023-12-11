@@ -473,3 +473,58 @@ a {
 .footer-social_icon {
   fill: #f4f4fd;
 }
+
+.footer-form_text {
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-form_input {
+  display: flex;
+  gap: 24px;
+}
+.footer-form {
+  margin-left: 80px;
+}
+
+.footer-inp {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-left: 16px;
+}
+.footer-inp::placeholder {
+  color: #ffffff;
+}
+
+.footer-form_button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.footer-form_icon {
+  margin-left: 16px;
+}
