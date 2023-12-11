@@ -398,7 +398,7 @@
             <button class="footer-form_button" type="submit">
               Subscribe
               <svg class="footer-form_icon" width="24" height="24">
-                <use href="./images/icons-2 .svg#icon-Subscribe"></use>
+                <use href="./images/icons-2.svg#icon-Subscribe"></use>
               </svg>
             </button>
           </form>
@@ -409,7 +409,7 @@
       <div class="modal">
         <button class="modal-button_close" type="button">
           <svg class="modal-close_icon" width="8" height="8">
-            <use href="./images/icons-2 .svg#icon-close"></use>
+            <use href="./images/icons-2.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-maintext">Leave your contacts and we will call you back</p>
@@ -419,27 +419,46 @@
             <div class="form-container_input">
               <input class="form-input_name" id="user-name" name="user-name" type="text" />
               <svg class="form-name_icon" width="18" height="24">
-                <use href="./images/icons-2 .svg#icon-person"></use>
+                <use href="./images/icons-2.svg#icon-person"></use>
               </svg>
             </div>
           </div>
           <div class="form-modal">
-            <label class="form-label_name" for="user-name"> Name</label>
+            <label class="form-label_name" for="user-name"> Phone</label>
             <div class="form-container_input">
               <input class="form-input_name" id="user-name" name="user-name" type="text" />
               <svg class="form-name_icon" width="18" height="24">
-                <use href="./images/icons-2 .svg#icon-phone"></use>
+                <use href="./images/icons-2.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
           <div class="form-modal">
-            <label class="form-label_name" for="user-name"> Name</label>
+            <label class="form-label_name" for="user-name"> Email</label>
             <div class="form-container_input">
               <input class="form-input_name" id="user-name" name="user-name" type="text" />
               <svg class="form-name_icon" width="18" height="24">
-                <use href="./images/icons-2 .svg#icon-email"></use>
+                <use href="./images/icons-2.svg#icon-email"></use>
               </svg>
             </div>
+          </div>
+          <div class="form-comment">
+            <label class="form-label_name" for="user-comment">Comment</label>
+            <textarea class="form-textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+          </div>
+          <div class="form-checkbox">
+            <input
+              class="input-checkbox visually-hidden"
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="form-label_text_terms" for="user-privacy">
+              <span class="form-label_text_span"
+                ><svg class="form-icon_check" width="10" height="8">
+                  <use href="./images/icons-2.svg#icon-check"></use></svg></span
+              >I accept the terms and conditions of the<a class="form-link_terms"> Privacy Policy</a>
+            </label>
           </div>
         </form>
       </div>
