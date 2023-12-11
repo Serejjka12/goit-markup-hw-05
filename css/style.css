@@ -547,9 +547,8 @@ a {
   min-height: 584px;
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
-  box-shadow: зі значенням 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
 }
 
@@ -615,10 +614,10 @@ a {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .form-input_name:focus {
   border-color: #4d5ae5;
-  fill: #4d5ae5;
 }
 
 .form-name_icon {
@@ -627,4 +626,7 @@ a {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-input_name:focus .form-name_icon {
+  fill: #4d5ae5;
 }
