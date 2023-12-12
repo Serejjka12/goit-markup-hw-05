@@ -621,6 +621,7 @@ a {
 }
 
 .form-name_icon {
+  padding: 0 0 5px 0;
   position: absolute;
   left: 16px;
   top: 50%;
